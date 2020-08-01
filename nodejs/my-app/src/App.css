@@ -1,0 +1,39 @@
+.App {
+  margin: 300px auto;
+}
+
+.App .Header{
+  border: .3px solid #bebebe;
+  width: 500px;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.App .Header img {
+  width: 30px;
+  margin: 0 10px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.App .Header input {
+  width: 100%;
+  height: 35px;
+  margin: 0 0 0 20px;
+  border: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #4d4d4d;
+}
+
+.App .Header input::placeholder {
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #4d4d4d;
+}
