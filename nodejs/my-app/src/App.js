@@ -54,7 +54,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="Header">
-          <img src={arrow} ></img>
+          <img src={arrow} alt="arrow"></img>
           <input type='text' placeholder="Add a to do" onKeyUp={this.onKeyDown}></input>
         </div>
         {
